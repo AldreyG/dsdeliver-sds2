@@ -1,5 +1,6 @@
 import './styles.css';
 import {ReactComponent as Logo} from '../Image/Logo.svg';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -9,10 +10,10 @@ function Navbar() {
     <nav className="main-navbar">
 
         <Logo />
-        <a href="#" className="logo-text">DS Deliver</a>
+        <Link to="/" className="logo-text">DS Deliver</Link>
 
     </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
