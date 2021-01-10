@@ -1,5 +1,3 @@
-import ProductsCard from "./ProductCard";
-
 import {Product} from './types';
 
 
