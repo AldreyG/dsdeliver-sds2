@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Home from './Home';
 import Order from './Orders';
+import OrderDetails from './OrderDetails/index';
 
 
 
@@ -21,6 +22,8 @@ function Routes() {
         <Stack.Screen name="Home" component={Home}></Stack.Screen>
 
         <Stack.Screen name="Order" component={Order}></Stack.Screen>
+
+        <Stack.Screen name="OrderDetails" component={OrderDetails}></Stack.Screen>
 
         </Stack.Navigator>
 
